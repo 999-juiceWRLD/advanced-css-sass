@@ -4,5 +4,19 @@
     height: 95vh; means that the height of the .header will always be the 95%
     of the viewport height — changing the screen size is unimportant.
     */
-    /* background-color: ; */
+
+    background-image: url(../../assets/img/hero.jpg);
+    background-size: cover;
+
+    /* 
+    background-size: cover; what makes this is, whatever the viewport or the 
+    element is, it'll always to fit the element inside of the box. 
+    */
+
+    background-position: top;
+
+    /* 
+    background-position: top; makes that whatever the window size, it will always
+    make the image stick onto the top side. 
+    */
 }
