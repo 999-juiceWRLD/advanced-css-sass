@@ -1,5 +1,6 @@
 .btn {
     font-weight: 700;
+    border-radius: 100px;
 }
 
 .btn:link,
@@ -8,6 +9,7 @@
     text-decoration: none;
     padding: 15px 40px;
     display: inline-block;
+    transition: all .3s;
 }
 
 .btn:hover {
