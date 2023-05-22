@@ -15,6 +15,8 @@
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+    animation-name: moveLeft;
+    animation-duration: 3s;
 }
 
 .heading-primary-sub {
@@ -22,4 +24,50 @@
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 15px;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* 
+@keyframes identifier { } simply helps to control intermediate steps 
+in CSS animation sequence by defining styles for keyframes (or waypoints)
+along the animation sequence. this gives more control over the intermediate 
+steps of the animation sequence than transitions. the `from` is starting
+offset of 0% and `to` is ending offset of 100%.
+
+Example:
+
+@keyframes _ {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+*/
+
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
