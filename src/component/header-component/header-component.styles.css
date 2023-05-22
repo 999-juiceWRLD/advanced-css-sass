@@ -1,0 +1,8 @@
+.header {
+    height: 95vh;
+    /* 
+    height: 95vh; means that the height of the .header will always be the 95%
+    of the viewport height — changing the screen size is unimportant.
+    */
+    /* background-color: ; */
+}
