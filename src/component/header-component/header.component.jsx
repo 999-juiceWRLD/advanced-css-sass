@@ -1,5 +1,6 @@
 import React from "react";
 import "./header-component.styles.css";
+import "../../assets/css/style.css";
 
 function HeaderComp() {
     return (

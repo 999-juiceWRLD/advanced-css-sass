@@ -5,7 +5,11 @@
     of the viewport height — changing the screen size is unimportant.
     */
 
-    background-image: url(../../assets/img/hero.jpg);
+    background-image: linear-gradient(
+        to right bottom, 
+        rgb(126, 213, 111, 0.8), 
+        rgb(40, 180, 133, 0.8)), 
+        url(../../assets/img/hero.jpg);
     background-size: cover;
 
     /* 
