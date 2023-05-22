@@ -23,4 +23,17 @@
     background-position: top; makes that whatever the window size, it will always
     make the image stick onto the top side. 
     */
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    /* 
+    clip-path property creates a clipping region that sets what part of an element 
+    should be shown. parts that are inside the region are shown, while those outside 
+    are hidden. some elements are
+
+    clip-path: circle();
+    clip-path: ellipse();
+    clip-path: polygon();
+    clip-path: path();
+    */
 }
