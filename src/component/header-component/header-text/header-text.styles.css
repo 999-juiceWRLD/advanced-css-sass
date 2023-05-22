@@ -8,6 +8,7 @@
 .heading-primary {
     color: #fff; /* same for #ffffff */
     text-transform: uppercase;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main {
