@@ -36,4 +36,17 @@
     clip-path: polygon();
     clip-path: path();
     */
+
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 35px;
+    width: auto;
 }

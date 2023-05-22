@@ -5,7 +5,12 @@ import "../../assets/css/style.css";
 function HeaderComp() {
     return (
         <header className="header">
-            some text...
+            <div className="logo-box">
+                <img src={require("../../assets/img/logo-white.png")}
+                     alt="logo-image"
+                     className="logo" 
+                />
+            </div>
         </header>
     );
 }
