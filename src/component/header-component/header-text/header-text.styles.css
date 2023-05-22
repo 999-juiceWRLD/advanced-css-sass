@@ -17,10 +17,10 @@
     letter-spacing: 35px;
     animation-name: moveLeft;
     /* 
-    animation-duration: 3s; starts animation 3 seconds later 
+    animation-delay: 3s; starts animation 3 seconds later 
     animation-iteration-count: 3; runs animation three times
     */
-    animation-delay: 3s;
+    animation-duration: 3s;
 }
 
 .heading-primary-sub {
