@@ -1,17 +1,9 @@
-.btn {
-    text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 7px;
-}
-
-.btn #btn-a:link, 
-.btn #btn-a:visited {
+.btn:link,
+.btn:visited {
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
+    display: inline-block;
 }
 
 .btn-white {
