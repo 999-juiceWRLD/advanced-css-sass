@@ -1,4 +1,4 @@
-# Info
+# Info
 
 This is the main branch. If you want to see the `Natours`, `Trillio` and 
 `Nexter` projects, please checkout branches. Although the course just used 
