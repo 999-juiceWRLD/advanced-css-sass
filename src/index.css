@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* 
+  box-sizing: border-box; changes the box model so that the borders and the 
+  paddings are no longer added to the total width or the total height.
+  */
+}
+
+body {
+  font-family: sa;
+}
