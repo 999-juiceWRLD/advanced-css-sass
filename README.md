@@ -1,6 +1,6 @@
 # CSS-Internals
 
-This branch will be focused on how CSS works.
+This branch will be focused on how CSS works, and basic information of good-code conventions.
 
 ## Fundamental Principles of Writing Good HTML and CSS
 
@@ -12,7 +12,7 @@ This branch will be focused on how CSS works.
   - Correct units
   - Desktop-first vs. mobile-firs
 
-- ### Maintainable and Scalable Code
+- ### Maintainable and Scalable Code
   
   - Clean
   - Easy to understand
@@ -22,7 +22,7 @@ This branch will be focused on how CSS works.
   - How to name classes
   - How to structure HTML
 
-- ### Web Performance
+- ### Web Performance
 
   - Less HTTP requests
   - Less code
