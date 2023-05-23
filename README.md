@@ -13,3 +13,5 @@ This branch will be focused on how CSS works, and basic information of good-code
 | Desktop-first vs. mobile-first | How to organize files          | Less images                        |
 |                                | How to name classes            | Compress images                    |
 |                                | How to structure HTML          |                                    |
+
+![how html parsed](./slides-page.jpg)
