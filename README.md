@@ -14,4 +14,17 @@ This branch will be focused on how CSS works, and basic information of good-code
 |                                | How to name classes            | Compress images                    |
 |                                | How to structure HTML          |                                    |
 
+## How CSS Works Behind the Scenes
+
+```css
+.selector {
+    property: declared-value;
+}
+
+```
+
+### What is Cascade?
+
+Cascade is the process of combining different stylesheets and resolving conflicts between different CSS rules and declarations, when more than one rule applies to a certain element.
+
 ![how html parsed](./slides-page.jpg)
