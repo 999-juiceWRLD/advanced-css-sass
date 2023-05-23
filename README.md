@@ -4,29 +4,12 @@ This branch will be focused on how CSS works, and basic information of good-code
 
 ## Fundamental Principles of Writing Good HTML and CSS
 
-- ### Responsive Design
-
-  - Fluid layouts
-  - Media queries
-  - Responsive images
-  - Correct units
-  - Desktop-first vs. mobile-firs
-
-- ### Maintainable and Scalable Code
-  
-  - Clean
-  - Easy to understand
-  - Growth
-  - Reusable
-  - How to organize files
-  - How to name classes
-  - How to structure HTML
-
-- ### Web Performance
-
-  - Less HTTP requests
-  - Less code
-  - Compress code
-  - Use a CSS preprocessor
-  - Less images
-  - Compress images
+| Responsive Design              | Maintainable and Scalable Code | Web Performance                    |
+|--------------------------------|--------------------------------|------------------------------------|
+| Fluid layouts                  | Clean                          | Less HTTP requests                 |
+| Media queries                  | Easy to understand             | Less code                          |
+| Responsive images              | Growth                         | Compress code                      |
+| Correct units                  | Reusable                       | Use a CSS preprocessor (Like Sass) |
+| Desktop-first vs. mobile-first | How to organize files          | Less images                        |
+|                                | How to name classes            | Compress images                    |
+|                                | How to structure HTML          |                                    |
