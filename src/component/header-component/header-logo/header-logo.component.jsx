@@ -3,10 +3,10 @@ import "./header-logo.styles.css";
 
 function HeaderLogo() {
     return (
-        <div className="logo-box">
+        <div className="header__logo-box">
                 <img src={require("../../../assets/img/logo-white.png")}
                      alt="logo"
-                     className="logo" 
+                     className="header__logo" 
                 />
         </div>
     );
