@@ -93,3 +93,15 @@ How different box-types determine how boxes are laid out on a page.
         ```css
         display: inline-block;
         ```
+
+#### 4. Positioning Schemes
+
+Simply, there are three of positioning schemes: `normal flow`, `floats`, `absolute positioning`.
+
+| Normal Flow                                       | Floats                                                        | Absolute Positioning                                                                                      |
+|---------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Default positioning scheme                        | Element is removed from the normal flow                       | Element is removed from the normal flow                                                                   |
+| Not floated                                       | Text and inline elements will wrap around the floated element | No impact on surrounding content or elements                                                              |
+| Not absolutely positioned                         | The container will not adjust its height to the element       | We use `top`, `bottom`, `left` and `right` to offset the element from its relatively positioned container |
+| Elements laid out according to their source order | `float: left`                                                 | `position: absolute`                                                                                      |
+| `position: relative`                              | `float: right`                                                | `position: fixed`                                                                                         |
