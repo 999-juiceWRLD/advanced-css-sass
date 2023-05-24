@@ -139,3 +139,46 @@ The 7 folders are as follows:
     abstracts/
     vendors/ 
 ```
+
+### Misc. — Sass
+
+Sass is a CSS preprocessor, which is an extension of CSS that adds power and elegance to the basic language.
+
+#### What actually Sass gives?
+
+- **Variables:** for reusable values such as colors, font-sizes, spacing, etc.
+- **Nesting:** to nest selectors inside of one another, allowing us to write less code.
+- **Operators:** for mathematical operations inside of CSS.
+- **Partials and Imports:** to write CSS in different files and importing them all into one single file.
+- **Mixins:** to write reusable pieces of CSS.
+- **Functions:** similar to mixins, with the difference that they produce a value that can be used.
+- **Extends:** to make different selectors inherit declarations that are common to all of them.
+- **Control Directives:** for writing complex code using conditionals and loops.
+
+There are also known two syntaxes of Sass: Sass syntax and SCSS syntax.
+
+Sass syntax:
+
+```sass
+    .navigation
+        list-style: none
+        float: left
+
+        & li
+            display: inline-block
+            margin-left: 30px
+```
+
+SCSS syntax:
+
+```scss
+    .navigation {
+        list-style: none;
+        float: left;
+
+        & li {
+            display: inline-block;
+            margin-left: 30px;
+        }
+    }
+```
