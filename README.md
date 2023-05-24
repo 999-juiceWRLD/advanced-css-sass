@@ -66,9 +66,9 @@ How different box-types determine how boxes are laid out on a page.
         also,
 
         ```css
-        (display: flex;)
-        (display: table;)
-        (display: list-item;)
+        (display: flex)
+        (display: table)
+        (display: list-item)
         ```
 
         produce block-level boxes.
@@ -82,4 +82,14 @@ How different box-types determine how boxes are laid out on a page.
 
         ```css
         display: inline;        
+        ```
+
+3. Inline-block Boxes
+    - a mix of block and inline
+    - occupies only content's space
+    - no line-breaks
+    - box model applies as showed
+
+        ```css
+        display: inline-block;
         ```
