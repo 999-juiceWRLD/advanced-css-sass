@@ -7,11 +7,12 @@ Dark green: #28b485
 
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  
+    box-sizing: inherit;
     /* 
     box-sizing: border-box; changes the box model so that the borders and the 
     paddings are no longer added to the total width or the total height.
@@ -19,7 +20,7 @@ Dark green: #28b485
   }
 
   html {
-    font-size: 10px;
+    font-size: 62.5%; /* default font size = 16px and 10 / 16 = 0.625 */
   }
   
   body {
@@ -29,5 +30,6 @@ Dark green: #28b485
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+    box-sizing: border-box;
   }
   
