@@ -73,7 +73,7 @@ How different box-types determine how boxes are laid out on a page.
 
         produce block-level boxes.
 
-2. Block-level Boxes
+2. Inline Boxes
     - content is distributed in lines
     - occupies only content's space
     - no line-breaks
