@@ -109,3 +109,33 @@ Simply, there are three of positioning schemes: `normal flow`, `floats`, `absolu
 #### 4. Stacking Context (Z-index)
 
 The one with the higher index appears on top and lower index appears on bottom.
+
+### **B**lock **E**lement **M**odifier
+
+```css
+.block {}
+.block__element {}
+.block__element--modifier {}
+```
+
+**BLOCK** is a standalone component that is meaningful on its own.
+
+**ELEMENT** is a part of a block that has no standalone meaning.
+
+**MODIFIER** is a different version of a block or an element.
+
+### The 7-1 Pattern
+
+7 different folders for partial Sass files, and 1 main Sass file to import all other files into a compiled CSS stylesheet.
+
+The 7 folders are as follows:
+
+```plaintext
+    base/
+    components/
+    layout/
+    pages/
+    themes/
+    abstracts/
+    vendors/ 
+```
