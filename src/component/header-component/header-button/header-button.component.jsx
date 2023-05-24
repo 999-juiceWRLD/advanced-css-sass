@@ -3,7 +3,7 @@ import "./header-button.styles.css";
 
 function HeaderButton() {
     return (
-        <a href="#" className="btn btn-white">Discover Our Tools</a>
+        <a href="#" className="btn btn--white">Discover Our Tools</a>
     );
 }
 
