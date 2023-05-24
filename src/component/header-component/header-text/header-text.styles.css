@@ -8,14 +8,14 @@
 .heading-primary {
     color: #fff; /* same for #ffffff */
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .heading-primary-main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
     animation-name: moveLeft;
     /* 
     animation-delay: 3s; starts animation 3 seconds later 
@@ -26,9 +26,9 @@
 
 .heading-primary-sub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 15px;
+    letter-spacing: 1.5rem;
     animation-name: moveRight;
     animation-duration: 3s;
 }
