@@ -50,3 +50,25 @@ The algorithm that calculates boxes and determines the layout of these boxes, fo
 **Total Height:** `top border + top padding + specified height + bottom padding + bottom border`.
 
 #### 2. Box Types
+
+How different box-types determine how boxes are laid out on a page.
+
+1. Block-level Boxes
+    - elements formatted visually as blocks
+    - 100% of parent's width
+    - vertically, one after the other
+    - box-model applies as showed:
+  
+        ```css
+        display: block
+        ```
+
+        also,
+
+        ```css
+        (display: flex)
+        (display: table)
+        (display: list-item)
+        ```
+
+        produce block-level boxes.
