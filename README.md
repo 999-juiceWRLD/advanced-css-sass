@@ -94,7 +94,7 @@ How different box-types determine how boxes are laid out on a page.
         display: inline-block;
         ```
 
-#### 4. Positioning Schemes
+#### 3. Positioning Schemes
 
 Simply, there are three of positioning schemes: `normal flow`, `floats`, `absolute positioning`.
 
@@ -105,3 +105,7 @@ Simply, there are three of positioning schemes: `normal flow`, `floats`, `absolu
 | Not absolutely positioned                         | The container will not adjust its height to the element       | We use `top`, `bottom`, `left` and `right` to offset the element from its relatively positioned container |
 | Elements laid out according to their source order | `float: left`                                                 | `position: absolute`                                                                                      |
 | `position: relative`                              | `float: right`                                                | `position: fixed`                                                                                         |
+
+#### 4. Stacking Context (Z-index)
+
+The one with the higher index appears on top and lower index appears on bottom.
