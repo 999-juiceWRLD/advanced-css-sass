@@ -33,7 +33,7 @@ Cascade is the process of combining different stylesheets and resolving conflict
 
 The algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page.
 
-### The Box Model
+#### 1. The Box Model
 
 - **Content:** text, images, etc.
 
@@ -48,3 +48,5 @@ The algorithm that calculates boxes and determines the layout of these boxes, fo
 **Total Width:** `right border + right padding + specified width + left padding + left border`.
 
 **Total Height:** `top border + top padding + specified height + bottom padding + bottom border`.
+
+#### 2. Box Types
