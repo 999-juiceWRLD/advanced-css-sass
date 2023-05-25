@@ -1,5 +1,5 @@
 import React from "react";
-import "./header-text.styles.css";
+import "./header-text.styles.scss";
 import HeaderButton from "../header-button/header-button.component";
 
 function HeaderText() {
