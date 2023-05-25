@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.styles.scss";
-import "../../../assets/css/style.css";
+import "../../../assets/css/style.scss";
 import HeaderText from '../header-text/header-text.component';
 import HeaderLogo from "../header-logo/header-logo.component";
 
