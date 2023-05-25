@@ -1,3 +1,5 @@
+@import "/src/assets/css/style.scss";
+
 .header {
     height: 95vh;
     /* 
@@ -7,8 +9,8 @@
 
     background-image: linear-gradient(
         to right bottom, 
-        rgb(126, 213, 111, 0.8), 
-        rgb(40, 180, 133, 0.8)), 
+        rgba($light-green, 0.8), 
+        rgba($dark-green, 0.8)), 
         url(../../../assets/img/hero.jpg);
     background-size: cover;
 
