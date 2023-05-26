@@ -1,5 +1,33 @@
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    margin: 0 8rem;
+    gap: 5rem;
+
+    .col-element {
+        text-align: left;
+        flex: 1;
+
+        .heading-margin {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    .heading-tertiary {
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .paragraph {
+        font-size: 1.6rem;
+    
+        &:not(:last-child) {
+            margin-bottom: 3.5rem;
+        }
+    }
 }
