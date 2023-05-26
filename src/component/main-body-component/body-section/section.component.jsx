@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.styles.scss";
-import BodyHeadingText from "../text/text.component";
+import BodyHeadingText from "../body-header/body-header.component";
 
 function BodySection() {
     return (
