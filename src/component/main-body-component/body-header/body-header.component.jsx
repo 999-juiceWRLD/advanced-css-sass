@@ -3,7 +3,7 @@ import "./body-header.styles.scss";
 
 function BodyHeadingText() {
     return (
-        <div className="u-center-text">
+        <div className="heading-text-wrapper">
             <h2 className="heading-secondary">
                 Exciting Tours for Adventurous People
             </h2>
