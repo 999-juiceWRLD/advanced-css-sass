@@ -1,8 +1,11 @@
 import React from "react";
+import BodySection from "../body-section/section.component";
 
 function Body() {
     return (
-        <main></main>
+        <main>
+            <BodySection />
+        </main>
     );
 }
 
