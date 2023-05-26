@@ -182,3 +182,21 @@ SCSS syntax:
         }
     }
 ```
+
+### Cont'd on Basic Responsive Design Principles
+
+1. Fluid Layouts:
+    - To allow webpage to adapt to the current viewport width (or even height)
+    - Use `%` (or `vh` / `vw`) unit instead of `px` for elements that should adapt to viewport (usually layout)
+    - Use `max-width` instead of `width`
+
+2. Responsive Units
+    - Use `rem` unit instead of `px` for most lengths
+    - To make it easy to scale the entire layout down (or up) automatically
+
+3. Flexible Images
+    - By default, images don't scale automatically as we change the viewport, so we need to fix that
+    - Always use `%` for image dimensions, together with the `max-property`
+
+4. Media Queries
+    - To change CSS styles on certain viewport widths (called breakpoints)
