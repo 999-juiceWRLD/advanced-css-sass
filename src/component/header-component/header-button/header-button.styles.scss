@@ -1,3 +1,5 @@
+@import "/src/assets/css/style.scss";
+
 .btn {
     font-weight: 700;
     border-radius: 10rem;
@@ -14,15 +16,15 @@
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
 }
 
 .btn:active {
     transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
 }
 
 .btn--white {
     background-color: #fff;
-    color: #777;
+    color: $color-grey-dark;
 }
