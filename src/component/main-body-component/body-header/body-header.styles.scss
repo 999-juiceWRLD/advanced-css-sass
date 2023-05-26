@@ -1,0 +1,22 @@
+@import "/src/assets/css/style.scss";
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+
+    /* 
+    
+    In order to put linear gradient to a text, 
+    follow the code below.
+    
+    */
+
+    background-image: linear-gradient(to right, $light-green, 
+                                      $dark-green);
+    color: transparent;
+    background-clip: text; // Also define the standard property 'background-clip',
+                           // for compatibility — it's a warning!
+    -webkit-background-clip: text;
+}
