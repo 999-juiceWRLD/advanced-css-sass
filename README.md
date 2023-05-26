@@ -200,3 +200,4 @@ SCSS syntax:
 
 4. Media Queries
     - To change CSS styles on certain viewport widths (called breakpoints)
+    
