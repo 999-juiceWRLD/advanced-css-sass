@@ -1,3 +1,5 @@
+@import "/src/assets/css/style.scss";
+
 .row {
     display: flex;
     flex-direction: row;
@@ -15,16 +17,30 @@
             margin-bottom: 2rem;
         }
 
+        .button-text {
+            
+            &:link,
+            &:visited {
+                font-size: $default-font-size;
+                font-weight: 700;
+                color: $light-green;
+                display: inline-block;
+                text-decoration: none;
+                border-bottom: 1px solid $light-green;
+                padding: 3px;
+            }
+        }
+
     }
 
     .heading-tertiary {
-        font-size: 1.6rem;
+        font-size: $default-font-size;
         font-weight: 700;
         text-transform: uppercase;
     }
 
     .paragraph {
-        font-size: 1.6rem;
+        font-size: $default-font-size;
     
         &:not(:last-child) {
             margin-bottom: 3.5rem;
