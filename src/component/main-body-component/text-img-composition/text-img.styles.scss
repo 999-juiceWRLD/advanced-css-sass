@@ -28,6 +28,19 @@
                 text-decoration: none;
                 border-bottom: 1px solid $light-green;
                 padding: 3px;
+                transition: 0.4s all;
+            }
+
+            &:hover {
+                background-color: $light-green;
+                color: $color-white;
+                box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+                transform: translateY(-2px);
+            }
+
+            &:active {
+                box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+                transform: translateY(0);
             }
         }
 
