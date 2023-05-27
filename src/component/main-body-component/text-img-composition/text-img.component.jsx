@@ -24,6 +24,8 @@ function TextImgRow() {
                     It will worth, we promise. 
                 </p>
 
+                <a href="#" className="button-text">Learn More &rarr;</a>
+
             </div>
             <div className="col-element">
                 <h3 className="heading-tertiary">
