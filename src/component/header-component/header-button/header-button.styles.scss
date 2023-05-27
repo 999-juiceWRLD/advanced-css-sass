@@ -3,6 +3,7 @@
 .btn {
     font-weight: 700;
     border-radius: 10rem;
+    font-size: $default-font-size;
 
     &:link,
     &:visited {
@@ -27,5 +28,4 @@
         background-color: #fff;
         color: $color-grey-dark;
     }
-
 }
