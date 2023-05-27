@@ -1,5 +1,8 @@
 import React from "react";
 import "./text-img.styles.scss";
+import nat1 from "../../../assets/img/nat-1-large.jpg"
+import nat2 from "../../../assets/img/nat-2-large.jpg"
+import nat3 from "../../../assets/img/nat-3-large.jpg"
 
 function TextImgRow() {
     return (
@@ -28,12 +31,17 @@ function TextImgRow() {
 
             </div>
             <div className="col-element">
-                <h3 className="heading-tertiary">
-                    You're going to fall in love with nature
-                </h3>
-                <p className="paragraph">
-                    This, is going to be your most exciting journey. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci magni aperiam sunt voluptatem doloribus velit dolor ex eaque autem ut est consequatur porro doloremque minus quasi dolore, dignissimos quam.
-                </p>
+                <div className="composition">
+                    <div className="first-photo">
+                    <img src={nat1} alt="photo-1" className="composition__photo composition__photo--p1"/>
+                    </div>
+                    <div className="second-photo">
+                    <img src={nat2} alt="photo-2" className="composition__photo composition__photo--p2"/>
+                    </div>
+                    <div className="third-photo">
+                    <img src={nat3} alt="photo-3" className="composition__photo composition__photo--p3"/>
+                    </div>
+                </div>
             </div>
         </div>
     );
