@@ -1,5 +1,5 @@
 import React from "react";
-import "./features-section.scss";
+import "./features-section.styles.scss";
 
 function Feature(props) {
     return (
