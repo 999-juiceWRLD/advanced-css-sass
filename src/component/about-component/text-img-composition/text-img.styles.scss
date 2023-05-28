@@ -51,9 +51,11 @@
                 width: 55%;
                 box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
                 transition: 0.2s all;
+                outline-offset: 2rem;
                 z-index: 10;
                 
                 &:hover {
+                    outline: 1.5rem solid $light-green;
                     transform: scale(1.18);
                     box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
                     z-index: 20;
