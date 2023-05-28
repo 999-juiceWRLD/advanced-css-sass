@@ -6,6 +6,7 @@ function FirstFeature() {
     return (
         <div className="col-1-of-4">
             <FeatureCore
+                icon={"icon-basic-world"}
                 heading={"Explore The World"}
                 text={"Lorem ipsum falan filan. bize paranı kazandır \
                       sonra siktir git nereye gidersen."} 
