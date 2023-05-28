@@ -8,4 +8,8 @@
         rgba($dark-green, 0.8)), 
         url(../../assets/img/nat-4.jpg);
     background-size: cover;
+
+    .row {
+        justify-content: flex-start;
+    }
 }
