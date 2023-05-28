@@ -12,7 +12,6 @@ function App() {
       <Feature 
         childComponent1={<FirstFeature />}
       />
-      {/* <FirstFeature /> */}
     </div>
   );
 }
