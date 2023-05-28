@@ -1,0 +1,11 @@
+@import "/src/assets/css/style.scss";
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($light-green, 0.8), 
+        rgba($dark-green, 0.8)), 
+        url(../../assets/img/nat-4.jpg);
+    background-size: cover;
+}
