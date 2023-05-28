@@ -1,5 +1,5 @@
 import React from "react";
-import "./body-header.styles.scss";
+import "./about-header.styles.scss";
 
 function BodyHeadingText() {
     return (

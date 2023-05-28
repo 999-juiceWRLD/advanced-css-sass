@@ -1,6 +1,6 @@
 import React from "react";
-import "./section.styles.scss";
-import BodyHeadingText from "../body-header/body-header.component";
+import "./about-section.styles.scss";
+import BodyHeadingText from "../about-header/about-header.component";
 import TextImgRow from "../text-img-composition/text-img.component";
 
 function BodySection() {

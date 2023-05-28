@@ -1,5 +1,5 @@
 import React from "react";
-import BodySection from "../body-section/section.component";
+import BodySection from "../about-section/about-section.component";
 
 function Body() {
     return (
