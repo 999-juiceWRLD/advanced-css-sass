@@ -5,11 +5,10 @@ import FeatureCore from "../feature-core/feature-core.component";
 function ThirdFeature() {
     return (
             <FeatureCore
-                icon={"icon-basic-world"}
-                heading={"Explore The World"}
-                text={"Remember every step you took — let \
-                      everyone see what's amazing. Feel the \
-                      freedom."} 
+                icon={"icon-basic-map"}
+                heading={"Find Your Way"}
+                text={"Unlock the path to self-discovery and find your true purpose. \
+                      Navigate through life's challenges."} 
             />
     );
 }
