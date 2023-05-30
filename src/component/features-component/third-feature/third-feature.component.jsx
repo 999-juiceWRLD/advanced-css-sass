@@ -8,7 +8,7 @@ function ThirdFeature() {
                 icon={"icon-basic-map"}
                 heading={"Find Your Way"}
                 text={"Unlock the path to self-discovery and find your true purpose. \
-                      Navigate through life's challenges."} 
+                      Navigate yourself."} 
             />
     );
 }
