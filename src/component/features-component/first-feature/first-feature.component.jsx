@@ -4,14 +4,13 @@ import FeatureCore from "../feature-core/feature-core.component";
 
 function FirstFeature() {
     return (
-        <div className="col-1-of-4">
             <FeatureCore
                 icon={"icon-basic-world"}
                 heading={"Explore The World"}
-                text={"Lorem ipsum falan filan. bize paranı kazandır \
-                      sonra siktir git nereye gidersen."} 
+                text={"Remember every step you took — let \
+                      everyone see what's amazing. Feel the\
+                      freedom."} 
             />
-        </div>
     );
 }
 
