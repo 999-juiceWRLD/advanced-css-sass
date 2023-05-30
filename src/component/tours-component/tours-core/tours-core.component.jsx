@@ -1,6 +1,8 @@
 import React from "react";
 import "./tours-core.styles.scss";
 import FirstComponent from "../tours-row/first-component/first-comp.component";
+import SecondComponent from "../tours-row/second-component/second-comp.component";
+import ThirdComponent from "../tours-row/third-component/third-comp.component";
 
 function ToursCore() {
     return (
@@ -10,7 +12,11 @@ function ToursCore() {
                     Most Popular Tours
                 </h2>
             </div>
-            <FirstComponent />
+            <div className="row">
+                <FirstComponent />
+                <SecondComponent />
+                <ThirdComponent />
+            </div>
         </section>
     );
 }
