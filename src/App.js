@@ -6,6 +6,7 @@ import SecondFeature from './component/features-component/second-feature/second-
 import ThirdFeature from './component/features-component/third-feature/third-feature.component';
 import FourthFeature from './component/features-component/fourth-feature/fourth-feature.component';
 import Feature from './component/features-component/feature-section/features-section.component';
+import ToursCore from './component/tours-component/tours-core/tours-core.component';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         childComponent3={<ThirdFeature />}
         childComponent4={<FourthFeature />}
       />
+      <ToursCore />
     </div>
   );
 }
