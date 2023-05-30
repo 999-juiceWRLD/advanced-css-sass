@@ -9,6 +9,7 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     width: 25%;
+    transition: 0.4s all;
 
     &__icon {
         font-size: 5.5rem;
@@ -19,6 +20,10 @@
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
+    }
+
+    &:hover {
+        transform: translateY(-2.5rem) scale(1.05);
     }
     // .heading-tertiary,
     // &__text{
