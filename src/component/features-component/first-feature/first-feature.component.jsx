@@ -8,7 +8,7 @@ function FirstFeature() {
                 icon={"icon-basic-world"}
                 heading={"Explore The World"}
                 text={"Remember every step you took — let \
-                      everyone see what's amazing. Feel the\
+                      everyone see what's amazing. Feel the \
                       freedom."} 
             />
     );
