@@ -1,10 +1,12 @@
+@import "/src/assets/css/style.scss";
+
 .feature-box {
 
     text-align: left;
 
-    // .heading-tertiary,
-    // &__text{
-    
-    // }
+    .heading-tertiary,
+    &__text{
+        color: $color-white;
+    }
     
 }
