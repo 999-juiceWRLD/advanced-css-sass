@@ -3,8 +3,9 @@ import "./first-comp.styles.scss";
 
 function FirstComponent() {
     return (
-    <div className="u*-ce">
-        anayın amı</div>
+    <div className="col-1">
+        column 1
+    </div>
     );
 }
 
