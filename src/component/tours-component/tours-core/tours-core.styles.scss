@@ -1,1 +1,13 @@
 @import "../../../assets/css/style.scss";
+@import "../tours-row/cards.scss";
+
+.section-tours {
+    padding: 25rem 0 50rem 0;
+    background-color: $color-grey-light-1;
+
+    .row {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
