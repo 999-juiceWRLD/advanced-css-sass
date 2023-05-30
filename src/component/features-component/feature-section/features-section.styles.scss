@@ -1,16 +1,18 @@
 @import "/src/assets/css/style.scss";
 
 .section-features {
-    padding: 20rem 0;
-    margin-top: -10vh;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    margin-top: -25vh;
+    clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0% 100%);
     background-image: linear-gradient(
         to right bottom, 
         rgba($light-green, 0.8), 
         rgba($dark-green, 0.8)), 
         url(../../../assets/img/nat-4.jpg);
     background-size: cover;
-
     .row {
         justify-content: flex-start;
+        margin-top: 8rem;
     }
 }
