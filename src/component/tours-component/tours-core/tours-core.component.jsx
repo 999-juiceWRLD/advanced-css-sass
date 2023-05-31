@@ -3,6 +3,7 @@ import "./tours-core.styles.scss";
 import FirstComponent from "../tours-row/first-component/first-comp.component";
 import SecondComponent from "../tours-row/second-component/second-comp.component";
 import ThirdComponent from "../tours-row/third-component/third-comp.component";
+import DiscoverButton from "../tours-discover/tours-discover.components";
 
 function ToursCore() {
     return (
@@ -17,6 +18,7 @@ function ToursCore() {
                 <SecondComponent />
                 <ThirdComponent />
             </div>
+            <DiscoverButton />
         </section>
     );
 }
