@@ -3,7 +3,7 @@ import "./tours-discover.styles.scss";
 
 function DiscoverButton() {
     return (
-        <a href="#" className="btn btn--green u-margin-top-big">
+        <a href="#" className="btn btn--green u-margin-top-huge">
             Discover All Tours
         </a>
     );
