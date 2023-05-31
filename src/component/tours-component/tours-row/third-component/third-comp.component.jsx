@@ -10,15 +10,17 @@ function ThirdComponent() {
                         &nbsp;
                     </div>
                     <h4 className="card__heading">
-                        Heading
+                        <span className="card__heading-span card__heading-span--3">
+                            The Snow Adventurer
+                        </span>
                     </h4>
                     <div className="card__details">
                         <ul>
-                            <li>3 day tour</li>
-                            <li>up to 30 people</li>
-                            <li>2 tour guides</li>
+                            <li>5 day tour</li>
+                            <li>up to 15 people</li>
+                            <li>3 tour guides</li>
                             <li>sleep in 5-star hotel</li>
-                            <li>relatively cheap</li>
+                            <li>let the adrenaline run in your blood</li>
                         </ul>
                     </div>
                     </div>
@@ -26,7 +28,7 @@ function ThirdComponent() {
                     <div className="card__cta">
                         <div className="card__price-box">
                             <p className="card__price-only">Only</p>
-                            <p className="card__price-value"> &#36;297</p>
+                            <p className="card__price-value"> &#36;897</p>
                             <BookButton />
                         </div>
                     </div>
