@@ -16,7 +16,7 @@ function ThirdComponent() {
                     </h4>
                     <div className="card__details">
                         <ul>
-                            <li>5 day tour</li>
+                            <li>5-day tour</li>
                             <li>up to 15 people</li>
                             <li>3 tour guides</li>
                             <li>sleep in 5-star hotel</li>
