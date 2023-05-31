@@ -1,4 +1,5 @@
 import React from "react";
+import "./story-text.styles.scss";
 
 function StoryText(props) {
     return (
