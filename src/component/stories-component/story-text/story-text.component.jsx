@@ -1,12 +1,13 @@
 import React from "react";
-import "./base-story-comp.styles.scss";
+import "./story-text.styles.scss";
 
-function BaseStoryComp(props) {
+function StoryText(props) {
     return (
-        <div className="story">
-            {props.text}
+        <div className="story__text">
+            <h3 className="heading-tertiary u-margin-bottom-small">{props.title}</h3>
+            <p>{props.text}</p>
         </div>
     );
 }
 
-export default BaseStoryComp;
+export default StoryText;
