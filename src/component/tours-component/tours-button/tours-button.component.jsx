@@ -1,8 +1,9 @@
 import React from "react";
+import "./tours-button.styles.scss";
 
 function BookButton() {
     return (
-        <a href="#" className="btn btn--white">Book Now!</a>
+        <a href="#" className="shop btn btn--white">Book Now!</a>
     );
 }
 
