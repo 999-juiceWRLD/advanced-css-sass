@@ -7,6 +7,7 @@ function Figure(props) {
             <img src={require("../../../assets/img/nat-8.jpg")} 
                  className="story__img"
                  alt="client on a tour" />
+            <figcaption className="story__caption">Jane Doe</figcaption>
         </figure>
     );
 }
