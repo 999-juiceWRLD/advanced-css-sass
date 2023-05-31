@@ -7,6 +7,9 @@ import ThirdFeature from './component/features-component/third-feature/third-fea
 import FourthFeature from './component/features-component/fourth-feature/fourth-feature.component';
 import Feature from './component/features-component/feature-section/features-section.component';
 import ToursCore from './component/tours-component/tours-core/tours-core.component';
+import SectionHeader from './component/stories-component/section-header/section-header.component';
+import StoryText from './component/stories-component/story-text/story-text.component';
+import SectionCore from './component/stories-component/section-core/section-core.component';
 
 function App() {
   return (
@@ -20,6 +23,10 @@ function App() {
         childComponent4={<FourthFeature />}
       />
       <ToursCore />
+      <SectionHeader />
+      <SectionCore 
+        childComponent={<StoryText text={"hey there"} />}
+      />
     </div>
   );
 }
