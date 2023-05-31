@@ -4,10 +4,10 @@ import "./figures.styles.scss";
 function Figure(props) {
     return (
         <figure className="story__shape">
-            <img src={require("../../../assets/img/nat-8.jpg")} 
+            <img src={require(`../../../assets/img/${props.path}`)} 
                  className="story__img"
                  alt="client on a tour" />
-            <figcaption className="story__caption">Mary Smith</figcaption>
+            <figcaption className="story__caption">{props.name}</figcaption>
         </figure>
     );
 }
