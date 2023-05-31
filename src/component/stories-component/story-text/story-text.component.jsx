@@ -1,7 +1,7 @@
 import React from "react";
-import "./story-text.styles.scss";
+import "./base-story-comp.styles.scss";
 
-function StoryText(props) {
+function BaseStoryComp(props) {
     return (
         <div className="story">
             {props.text}
@@ -9,4 +9,4 @@ function StoryText(props) {
     );
 }
 
-export default StoryText;
+export default BaseStoryComp;
