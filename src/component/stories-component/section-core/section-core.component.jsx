@@ -1,10 +1,14 @@
 import React from "react";
+import "./section-core.styles.scss";
 
 function SectionCore(props) {
     return (
-        <div className="row">
-            {props.childComponent}
-        </div>
+        <section className="stories">
+            <div className="row">
+                {props.childComponent}
+            </div>
+        </section>
+        
     );
 }
 
