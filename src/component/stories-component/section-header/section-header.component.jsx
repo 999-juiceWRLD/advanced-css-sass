@@ -3,7 +3,7 @@ import "./section-header.styles.scss";
 
 function SectionHeader() {
     return (
-        <section className="section__stories">
+        <section className="section-stories">
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
                     We Make People Happy
