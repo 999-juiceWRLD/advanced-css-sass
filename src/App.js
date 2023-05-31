@@ -8,9 +8,9 @@ import FourthFeature from './component/features-component/fourth-feature/fourth-
 import Feature from './component/features-component/feature-section/features-section.component';
 import ToursCore from './component/tours-component/tours-core/tours-core.component';
 import SectionHeader from './component/stories-component/section-header/section-header.component';
-import BaseStoryComp from './component/stories-component/story-base/base-story.component';
 import SectionCore from './component/stories-component/section-core/section-core.component';
-import StoryText from './component/stories-component/story-text/story-text.component';
+import BaseStoryComp from './component/stories-component/story-base/base-story.component';
+import StoriesButton from './component/stories-component/stories-button/stories-button.component';
 
 function App() {
   return (
@@ -25,13 +25,28 @@ function App() {
       />
       <ToursCore />
       <SectionHeader />
-      <SectionCore 
-        childComponent={<BaseStoryComp> <StoryText 
-          title={"I had the best week with my family"}
-          text={"I did not think our Forrest Hiker program to be amazing.\
-                Looking forward to do it again next season."} /> 
-          </BaseStoryComp>}
+      <SectionCore
+        childComponent1={
+          <BaseStoryComp 
+            path={"nat-8.jpg"}
+            name={"Marry Smith"}
+            title={"I had the best week with my family"}
+            text={"I did not think our Forrest Hiker program to be amazing.\
+                  Looking forward to do it again next season. Creating \
+                  lifelong memories, my family and I had an incredible week \
+                  filled with love, laughter, and unforgettable adventures."}
+          />}
+        childComponent2={
+          <BaseStoryComp 
+            path={"nat-9.jpg"}
+            name={"Jack Willson"}
+            title={"My experiences with Natours changed my life"}
+            text={"Embarking on a transformative journey with Natours, my life \
+                  took a remarkable turn as I discovered new passions, forged meaningful \
+                  connections, and experienced personal growth like never before."}
+          />}
       />
+        <StoriesButton />
     </div>
   );
 }
