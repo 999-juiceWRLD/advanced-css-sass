@@ -10,6 +10,7 @@ import ToursCore from './component/tours-component/tours-core/tours-core.compone
 import SectionHeader from './component/stories-component/section-header/section-header.component';
 import BaseStoryComp from './component/stories-component/story-base/base-story.component';
 import SectionCore from './component/stories-component/section-core/section-core.component';
+import StoryText from './component/stories-component/story-text/story-text.component';
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
       <ToursCore />
       <SectionHeader />
       <SectionCore 
-        childComponent={<BaseStoryComp text={"hey there"} />}
+        childComponent={<BaseStoryComp> <StoryText 
+          title={"ne"}
+          text={"ayyo wassupppp"} /> 
+          </BaseStoryComp>}
       />
     </div>
   );
