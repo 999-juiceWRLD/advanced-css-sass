@@ -27,8 +27,9 @@ function App() {
       <SectionHeader />
       <SectionCore 
         childComponent={<BaseStoryComp> <StoryText 
-          title={"ne"}
-          text={"ayyo wassupppp"} /> 
+          title={"I had the best week with my family"}
+          text={"I did not think our Forrest Hiker program to be amazing.\
+                Looking forward to do it again next season."} /> 
           </BaseStoryComp>}
       />
     </div>
