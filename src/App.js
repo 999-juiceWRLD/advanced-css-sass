@@ -8,7 +8,7 @@ import FourthFeature from './component/features-component/fourth-feature/fourth-
 import Feature from './component/features-component/feature-section/features-section.component';
 import ToursCore from './component/tours-component/tours-core/tours-core.component';
 import SectionHeader from './component/stories-component/section-header/section-header.component';
-import StoryText from './component/stories-component/story-text/story-text.component';
+import BaseStoryComp from './component/stories-component/story-base/base-story.component';
 import SectionCore from './component/stories-component/section-core/section-core.component';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <ToursCore />
       <SectionHeader />
       <SectionCore 
-        childComponent={<StoryText text={"hey there"} />}
+        childComponent={<BaseStoryComp text={"hey there"} />}
       />
     </div>
   );
