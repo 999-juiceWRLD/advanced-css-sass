@@ -17,7 +17,7 @@ function FirstComponent() {
                 </h4>
                 <div className="card__details">
                     <ul>
-                        <li>3 day tour</li>
+                        <li>3-day tour</li>
                         <li>up to 30 people</li>
                         <li>2 tour guides</li>
                         <li>sleep in 5-star hotel</li>
