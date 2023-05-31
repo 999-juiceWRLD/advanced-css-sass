@@ -5,7 +5,8 @@ function SectionCore(props) {
     return (
         <section className="stories">
             <div className="row">
-                {props.childComponent}
+                {props.childComponent1}
+                {props.childComponent2}
             </div>
         </section>
         
