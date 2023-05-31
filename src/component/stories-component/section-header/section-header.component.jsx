@@ -1,7 +1,7 @@
 import React from "react";
 import "./section-header.styles.scss";
-import videoMp4 from "../../../assets/img/video.mp4";
-import videoWebm from "../../../assets/img/video.webm";
+// import videoMp4 from "../../../assets/img/video.mp4";
+// import videoWebm from "../../../assets/img/video.webm";
 
 function SectionHeader() {
     return (
