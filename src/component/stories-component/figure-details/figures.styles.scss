@@ -12,6 +12,7 @@
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+        z-index: 99;
     }
 
     &__img {
