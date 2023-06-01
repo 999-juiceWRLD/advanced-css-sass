@@ -59,6 +59,7 @@
 
             &__group {
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 gap: 1rem;
                 &:not(:last-child) {
@@ -69,6 +70,7 @@
             &__input {
                 font-size: 1.5rem;
                 font-family: inherit;
+                color: inherit;
                 padding: 1.5rem 2rem;
                 border-radius: 2px;
                 background-color: rgba($color-white, .5);
@@ -85,9 +87,28 @@
                 }
             }
 
+            &::-webkit-input-placeholder {
+                color: $color-grey-dark-2;
+            }
+
             &__label {
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin-left: 2rem;
+                margin-top: .7rem;
+                display: block;
+                align-self: flex-start;
+                height: 24px;
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.3s ease-in-out;
+
+                &.show {
+                    opacity: 1;
+                    visibility: visible;
+                    transition: opacity 0.3s ease-in-out;
+                }
             }
         }
-
     }
 }
