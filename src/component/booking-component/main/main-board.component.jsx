@@ -9,6 +9,15 @@ function MainBoard() {
                 <div className="book">
                     <img alt="forest" src={forestImage} className="book-img" /> 
                     <div className="image-overlay"></div>
+                    <div className="form-container">
+                        <form action="#" className="form">
+                            <div className="form__group">
+                                <input type="text" className="form__input" id="name"
+                                       placeholder="Full Name" required />
+                                <label htmlFor="name" className="form__label">Full Name</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
