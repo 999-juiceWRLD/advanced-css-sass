@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./main-board.styles.scss";
 import forestImage from "../../../assets/img/nat-10.jpg";
+import Buttons from "../buttons/button.component";
 
 function MainBoard() {
     return (
@@ -19,13 +20,14 @@ function MainBoard() {
                             <div className="form__group">
                                 <input type="text" className="form__input" id="name"
                                        placeholder="Full Name" required />
-                                {/* <label htmlFor="name" className="form__label">Full Name</label> */}
+                                {/* <label htmlFor="name" className="form__label">{fullName}</label> */}
                             </div>
                             <div className="form__group">
                                 <input type="text" className="form__input" id="email"
                                        placeholder="Email Address" required />
-                                {/* <label htmlFor="email" className="form__label">Email Address</label> */}
+                                {/* <label htmlFor="email" className={`form__label ${shouldShowLabelEmail ? "show" : ""}`}>{email}</label> */}
                             </div>
+                            <Buttons />
                         </form>
                     </div>
                 </div>
