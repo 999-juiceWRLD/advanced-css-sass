@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./main-board.styles.scss";
 import forestImage from "../../../assets/img/nat-10.jpg";
 import Buttons from "../buttons/button.component";
