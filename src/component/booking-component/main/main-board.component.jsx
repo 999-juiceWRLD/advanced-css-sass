@@ -24,7 +24,7 @@ function MainBoard() {
                             <div className="form__group">
                                 <input type="text" className="form__input" id="email"
                                        placeholder="Email Address" required />
-                                <label htmlFor="email" className="form__label">Full Name</label>
+                                <label htmlFor="email" className="form__label">Email Address</label>
                             </div>
                         </form>
                     </div>
