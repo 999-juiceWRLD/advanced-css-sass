@@ -12,7 +12,7 @@ import SectionCore from './component/stories-component/section-core/section-core
 import BaseStoryComp from './component/stories-component/story-base/base-story.component';
 import StoriesButton from './component/stories-component/stories-button/stories-button.component';
 import MainBoard from './component/booking-component/main/main-board.component';
-import FooterMain from './component/footer-component/footer-main.component';
+import FooterMain from './component/footer-component/footer-main/footer-main.component';
 
 function App() {
   return (
