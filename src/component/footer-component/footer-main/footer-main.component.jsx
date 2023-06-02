@@ -1,6 +1,7 @@
 import React from "react";
 import logoGreen from "../../../assets/img/logo-green-2x.png";
 import FooterList from "../footer-list/list.component";
+import "./footer-main.styles.scss";
 
 function FooterMain() {
     return (
@@ -12,7 +13,14 @@ function FooterMain() {
                 <div className="col-1-of-2">
                     <FooterList />
                 </div>
-                <div className="col-1-of-2"></div>
+                <div className="col-1-of-2">
+                    <p className="footer__copyright">
+                        Built by <a href="https://github.com/999-juiceWRLD" target="blank" className="footer__copyright">Kahraman CANIKOGLU</a>
+                    </p>
+                    <p className="footer__copyright">
+                    Designed by <a href="https://github.com/jonasschmedtmann" target="blank" className="footer__copyright">Jonas SCHMEDTMANN</a>
+                    </p>
+                </div>
             </div>
         </footer>
     );
