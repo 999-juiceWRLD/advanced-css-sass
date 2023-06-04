@@ -14,4 +14,15 @@
         height: 15rem;
         width: auto;
     }
+
+    .col-2-of-2 {
+
+        display: flex;
+
+        border-top: 1px solid $color-grey-light-1;
+        padding-top: 2rem;
+        a {
+            color: $color-grey-light-1;
+        }
+    }
 }
