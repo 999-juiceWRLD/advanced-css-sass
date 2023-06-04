@@ -13,7 +13,7 @@ function FooterMain() {
                 <div className="col-1-of-2">
                     <FooterList />
                 </div>
-                <div className="col-1-of-2">
+                <div className="col-2-of-2">
                     <p className="footer__copyright">
                         Built by <a href="https://github.com/999-juiceWRLD" target="blank" className="footer__copyright">Kahraman CANIKOGLU</a>
                     </p>
