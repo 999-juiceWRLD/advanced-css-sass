@@ -25,6 +25,8 @@ $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
 
+@import "./media-queries.mixins.scss";
+
 *,
 *::after,
 *::before {
@@ -39,6 +41,19 @@ $gutter-horizontal: 6rem;
 
   html {
     font-size: 62.5%; /* default font size = 16px and 10 / 16 = 0.625 */
+    
+    @include respond(phone) {
+      font-size: 50%;
+    }
+    @include respond(tab-port) {
+      font-size: 60%;
+    }
+    @include respond(tab-land) {
+      font-size: 70%;
+    }
+    @include respond(big) {
+      font-size: 80%;
+    }
   }
   
   body {
