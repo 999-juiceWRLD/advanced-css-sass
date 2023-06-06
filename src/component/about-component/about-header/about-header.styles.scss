@@ -23,4 +23,12 @@
     background-clip: text; // Also define the standard property 'background-clip',
                            // for compatibility — it's a warning!
     -webkit-background-clip: text;
+
+    @include respond(tab-port) {
+        font-size: 2.5rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.2rem;
+    }
 }
