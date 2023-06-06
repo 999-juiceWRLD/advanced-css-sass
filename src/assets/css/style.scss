@@ -65,6 +65,10 @@ $gutter-horizontal: 6rem;
     color: $color-grey-dark;
     padding: 3rem;
     box-sizing: border-box;
+
+    @include respond(tab-port) {
+      padding: 0;
+    }
   }
   
 .u-center-text { text-align: center !important; }
