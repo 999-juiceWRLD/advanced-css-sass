@@ -28,6 +28,7 @@ function MainBoard() {
                                        placeholder="Email Address" required />
                                 {/* <label htmlFor="email" className={`form__label ${shouldShowLabelEmail ? "show" : ""}`}>{email}</label> */}
                             </div>
+                            <p className="show-when-size-is-small">Please refer to our website on your computer. Thanks for understanding.</p>
                             <Buttons />
                             <NextButton />
                         </form>
