@@ -13,7 +13,7 @@ function MainBoard() {
                     <div className="image-overlay"></div>
                     <div className="form-container">
                         <form action="#" className="form">
-                            <div className="u-center-text u-margin-bottom-big">
+                            <div className="u-center-text u-margin-bottom-big media">
                                 <h2 className="heading-secondary">
                                     Register Now
                                 </h2>
