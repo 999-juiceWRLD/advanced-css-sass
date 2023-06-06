@@ -1,20 +1,11 @@
 import React from "react";
+import "./next-button.styles.scss";
 
 function NextButton() {
 
-    const styles = {
-        border: "none",
-        cursor: "pointer",
-        display: "inline-block",
-        borderRadius: "10rem",
-        padding: "1.5rem 4rem",
-        textTransform: "uppercase",
-        transition: "all 0.3s"
-    };
-
     return (
         <div className="form__group">
-            <button className="btn btn--green" style={styles}>
+            <button className="btn btn--green">
                 Next Step &rarr;
             </button>
         </div>
