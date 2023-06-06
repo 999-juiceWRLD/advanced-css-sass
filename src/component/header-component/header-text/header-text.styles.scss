@@ -11,28 +11,37 @@
     color: $color-white;
     text-transform: uppercase;
     margin-bottom: 6rem;
-}
 
-.heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moveLeft;
-    /* 
-    animation-delay: 3s; starts animation 3 seconds later 
-    animation-iteration-count: 3; runs animation three times
-    */
-    animation-duration: 3s;
-}
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation-name: moveLeft;
+        /* 
+        animation-delay: 3s; starts animation 3 seconds later 
+        animation-iteration-count: 3; runs animation three times
+        */
+        animation-duration: 3s;
 
-.heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.5rem;
-    animation-name: moveRight;
-    animation-duration: 3s;
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+        }
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.5rem;
+        animation-name: moveRight;
+        animation-duration: 3s;
+
+        @include respond(phone) {
+            letter-spacing: 0.5rem;
+        }
+    }
 }
 
 @keyframes moveLeft {
