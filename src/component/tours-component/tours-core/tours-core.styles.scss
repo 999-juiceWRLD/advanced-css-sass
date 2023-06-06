@@ -8,6 +8,12 @@
     .row {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+
+        @include respond(tab-port) {
+            margin: 0;
+            gap: 1rem;
+            grid-template-columns: 25% 25% 25%;
+        }
     }
 }
 

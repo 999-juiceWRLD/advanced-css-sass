@@ -20,6 +20,17 @@
         box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
         overflow: hidden;
 
+        @include respond(phone) {
+            width: 29rem;
+            height: 45rem;
+        }
+
+        @include respond(tab-port) {
+            width: 25rem;
+        }
+
+        // @include respond()
+
         &--front {
             background-color: $color-white;
         }
@@ -118,6 +129,21 @@
                     border-bottom: 1px solid $color-grey-light-2;
                     border-bottom-width: thin;
                 }
+            }
+        }
+
+        @include respond(phone) {
+            margin-top: 0;
+            ul {
+                li {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        @include respond(tab-port) {
+            ul {
+                margin: auto 15%;
             }
         }
     }

@@ -52,7 +52,22 @@
         padding-left: 3rem;
 
         .form {
-
+            @include respond(phone) {
+                margin-top: 0;
+                .media {
+                    margin-bottom: 1rem !important;
+                }
+                input {
+                    display: none;
+                }
+                .show-when-size-is-small {
+                    display: block;
+                    text-align: left;
+                }
+                width: 45%;
+                // height: 10rem;
+            }
+            
             .heading-secondary {
                 margin-top: 5rem;
             }
@@ -117,5 +132,9 @@
                 }
             }
         }
+    }
+
+    .show-when-size-is-small {
+        display: none;
     }
 }
