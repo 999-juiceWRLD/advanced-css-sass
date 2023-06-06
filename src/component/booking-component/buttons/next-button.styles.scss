@@ -1,0 +1,23 @@
+@import "../../../assets/css/style.scss";
+@import "../../../assets/css/media-queries.mixins.scss";
+
+button {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10rem;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+    @include respond(phone) {
+        display: none;
+    }
+}
+
+@include respond(phone) {
+    
+    button {
+        display: none;
+    }
+}
