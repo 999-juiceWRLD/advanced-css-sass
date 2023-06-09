@@ -1,10 +1,6 @@
 /*
 COLORS
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
-
 Grey light 1: #faf9f9
 Grey light 2: #f4f2f2
 Grey light 3: #f0eeee
@@ -15,6 +11,10 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+
+$color-primary: #eb2f64;
+$color-primary-light: #FF3366;
+$color-primary-dark: #BA265D;
 
 * {
     margin: 0;
@@ -29,8 +29,16 @@ Grey dark 3: #999
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
-    background-color: #eb2f64;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    // background-color: #BA265D;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, 
+                                $color-primary-light, 
+                                $color-primary-dark);
+    background-size: cover;
 }
