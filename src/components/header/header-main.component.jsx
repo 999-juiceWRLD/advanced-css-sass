@@ -10,10 +10,17 @@ function HeaderMain() {
                 <form action="#" className="search">
                     <input type="text" className="search__input" placeholder="Search Hotels" />
                     <button className="search__button">
-                        <Icon name="magnifying-glass" />
+                        <Icon clsName={"search__icon"} name="magnifying-glass" />
                     </button>
                 </form>
-                <nav className="user-nav"></nav>
+                <nav className="user-nav">
+                    <div className="user-nav__icon-box">
+                        <Icon clsName={"user-nav__icon"} name={"bookmark"} />
+                    </div>
+                    <div className="user-nav__icon-box">
+                        <Icon clsName={"user-nav__icon"} name={"chat"} />
+                    </div>
+                </nav>
             </header>
             <div className="content">
                 <nav className="sidebar">
