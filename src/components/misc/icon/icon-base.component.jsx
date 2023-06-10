@@ -1,7 +1,7 @@
 import React from "react";
 import symbolDef from "../../../assets/icons/symbol-defs.svg";
 
-function Icon({name, ...props}) {
+function Icon({name, clsName, ...props}) {
 
     const iconNames = [
         "bookmark",
@@ -23,7 +23,7 @@ function Icon({name, ...props}) {
     const iconPath = `${symbolDef}#icon-${name}`;
 
     return (
-        <svg {...props} >
+        <svg className={clsName} {...props} >
             <use xlinkHref={iconPath}></use>
         </svg>
     );
