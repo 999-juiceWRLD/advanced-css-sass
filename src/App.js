@@ -1,4 +1,3 @@
-import './App.css'; 
 import "./assets/sass/main.scss";
 import "./assets/css/style.css";
 import HeaderMain from './components/header/header-main.component';
