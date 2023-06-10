@@ -23,7 +23,7 @@ function Icon({name, ...props}) {
     const iconPath = `${symbolDef}#icon-${name}`;
 
     return (
-        <svg>
+        <svg {...props} >
             <use xlinkHref={iconPath}></use>
         </svg>
     );
