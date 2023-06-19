@@ -1,5 +1,4 @@
 import React from "react";
-import Icon from "../misc/icon/icon-base.component";
 import NavListElement from "../navigation-element/navlist-component";
 
 function NavigationBar() {
