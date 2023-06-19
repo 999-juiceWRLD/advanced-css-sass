@@ -1,6 +1,7 @@
 import React from "react";
 import logoImg from "../../assets/img/logo.png";
 import Icon from "../misc/icon/icon-base.component";
+import NavigationBar from "../navigation/navbar-component";
 
 function HeaderMain() {
     return (
@@ -22,14 +23,7 @@ function HeaderMain() {
                     </div>
                 </nav>
             </header>
-            <div className="content">
-                <nav className="sidebar">
-                    sidebar
-                </nav>
-                <main className="hotel-view">
-                    hotel    
-                </main>
-            </div>
+            <NavigationBar />
         </div>
     );
 }
