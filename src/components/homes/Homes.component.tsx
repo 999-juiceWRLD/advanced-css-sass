@@ -1,6 +1,8 @@
 const Homes: React.FunctionComponent = () => {
     return (
-        <section className="homes"></section>
+        <section className="homes">
+            homes
+        </section>
     );
 }
 
